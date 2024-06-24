@@ -30,7 +30,6 @@
 
 <script setup>
 import { ref } from "vue";
-import { useSupabaseUser, useSupabaseClient } from "@supabase/supabase-js";
 import { useRouter } from "vue-router";
 
 // Get the current user and supabase client

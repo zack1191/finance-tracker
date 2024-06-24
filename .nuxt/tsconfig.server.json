@@ -107,7 +107,10 @@
         "./color-mode-options"
       ],
       "#tailwind-config": [
-        "./tailwind"
+        "./tailwind.config"
+      ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
       ],
       "#supabase/server": [
         "../node_modules/@nuxtjs/supabase/dist/runtime/server/services/index"
